@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Bubblesort {
     public static void main(String[] args) {
-        int[] arr={1,15,3,9,5,12,6,58,89,20};
+        int[] arr={1,15,3,9,5,12,6,9,58,89,20};
         int swap;
         for (int c=1;c<=9;c++){
             for (int b=0;b<=8-c;b++){
