@@ -1,1 +1,1 @@
-# Java-DSA-Solutions
+# Java-Arrays-Solutions
