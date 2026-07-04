@@ -5,15 +5,18 @@ public class Q29 {
         String str="hello";
         char[] ch=str.toCharArray ();
         int n= ch.length;
+        int i=0;
+        int j=n-1;
+        while (i<j){
+            char temp=ch[i];
+            ch[i]=ch[j];
+            ch[j]=temp;
+            i++;
+            j--;
+        }
 
-
-       for (int i=0;i<n-1;i++){
-           for (int j=n;j>n-1;j--){
-               int swap=ch[i];
-               ch[j]=ch[i];
-               ch[i]=swap;
-           }
-       }
+        String rev=new String ( ch );
+        System.out.println (rev );
     }
 
 }
