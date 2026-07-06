@@ -9,7 +9,7 @@ public class Q35 {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the string");
        if (sc.hasNextInt ()){
-           System.out.println ("pls enter string only" );
+           System.out.println ("pls enter string only TE" );
            return;// yahi pr program end ho gya
        }else {
            str = sc.nextLine ( );
