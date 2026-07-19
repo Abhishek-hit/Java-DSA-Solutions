@@ -32,7 +32,7 @@ public class twopointer {
         // Two pointer ke liye sort karna zaruri hai
         Arrays.sort(arr);
 
-        // Method call karke print karwaya
+        //  this Method call karke print karwaya
         System.out.println("Is Target Present? : " + twopoint(arr, 25));
     }
 }
