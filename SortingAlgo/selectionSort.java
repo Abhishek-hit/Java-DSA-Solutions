@@ -8,7 +8,7 @@ public class selectionSort {
         int n = arr.length; // Array ki length store ki
 
         for (int i = 0; i < n - 1; i++) {
-            // Hum assume karte hain ki i par minimum element hai
+            //Hum assume karte hain ki i par minimum element hai
             int minIndex = i;
 
             // Inner loop: i + 1 se lekar end tak minimum element ka index dhundo
