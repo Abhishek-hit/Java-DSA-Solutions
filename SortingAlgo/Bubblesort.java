@@ -16,7 +16,7 @@ public class Bubblesort {
             }
         }
         System.out.println("--- Printing using Arrays.toString() ---");
-        // Tarika 1 (Best and Easiest): Ek hi line mein poora array print karega
+        //   Tarika 1 (Best and Easiest): Ek hi line mein poora array print karega
         System.out.println("Sorted Array: " + Arrays.toString(arr));
 
         System.out.println("\n--- Printing using a simple for loop ---");
