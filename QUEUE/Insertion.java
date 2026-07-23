@@ -51,7 +51,7 @@ public class Insertion {
                   front=front+1;
                    return val;
         }
-     }
+     }//learn 
     public static void main(String[] args) {
          queue data=new queue (5);
         Scanner sc=new Scanner (System.in);
