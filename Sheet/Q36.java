@@ -18,9 +18,9 @@ public class Q36 {
                 }
             }
 //            System.out.println(chars[i] + " = " + count);
-            if (count>1){
-                System.out.print(chars[i]+"  ");
-            }
+            //remove dulpicate
+                System.out.print(chars[i]);
+
         }
 
 //        for (int i=0;i<5; i++){
