@@ -19,7 +19,7 @@ public class Q36 {
             }
 //            System.out.println(chars[i] + " = " + count);
             if (count>1){
-                System.out.print(chars[i]+" ");
+                System.out.print(chars[i]+"  ");
             }
         }
 
